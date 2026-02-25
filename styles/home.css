@@ -137,6 +137,18 @@ dd {
     color: #818181;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    height: 70px;
+    font-size: 14px;
+}
 
+footer a  {
+    margin-left: 60px;
+    color: black;
+}
 
 
