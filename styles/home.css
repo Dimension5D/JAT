@@ -104,13 +104,38 @@ span {
 
 main h2 {
     font-size: 48px;
+    padding-bottom: 60px;
 }
 
+.container {
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
 
+.point-container {
+    display: flex;
+    margin-top: 50px;
+}
 
+.bullet {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin-right: 20px;
+    border-radius: 30px;
+}
 
+dt {
+    font-size: 24px;
+}
 
-
+dd {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #818181;
+}
 
 
 
