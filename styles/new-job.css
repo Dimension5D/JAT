@@ -76,3 +76,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border: 1px solid black;
   border-radius: 6px;
 }
+
+.message {
+    color: green;
+    font-weight: bold;
+}

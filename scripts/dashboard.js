@@ -1,3 +1,4 @@
+import getJobsFromStorage from "./storage.js";
 
 const jobsCountEl = document.querySelector(".count");
 const jobsContainerEl = document.querySelector(".job-container");
@@ -19,14 +20,6 @@ let jobs = [
 ];
 
 renderJobs();
-
-function getJobsFromStorage () {
-    let jobs =  localStorage.getItem("jobs");
-    if (!jobs) {
-        return [];
-    }
-    return jobs;
-}
 
 function renderJobs () {
     let jobElements = "";
