@@ -13,7 +13,7 @@ formEl.addEventListener("submit", (e) => {
     e.preventDefault();
     const job = {
         name: nameInputEl.value,
-        url: urlInputEl.value,
+        link: urlInputEl.value,
         description: descriptionInputEl.value,
         date: dateInputEl.value,
     }

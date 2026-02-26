@@ -4,21 +4,14 @@
     font-family: sans-serif;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 navbar {
     display: flex;
-    width: 1200px;
     align-items: center;
     height: 70px;
     border: 2px solid black;
     padding-left: 30px;
     border-radius: 12px;
-    margin: 40px 0px;
+    margin: 40px 50px;
 }
 
 navbar h1 {
@@ -28,7 +21,7 @@ navbar h1 {
 
 main {
     height: 520px;
-    width: 1220px;
+    margin: 40px 50px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -80,4 +73,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .message {
     color: green;
     font-weight: bold;
+}
+
+navbar a {
+    text-decoration: none;
+    color: black;
 }

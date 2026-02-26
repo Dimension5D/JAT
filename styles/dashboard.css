@@ -4,21 +4,14 @@
     font-family: sans-serif;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 navbar {
     display: flex;
-    width: 1200px;
     align-items: center;
     height: 70px;
     border: 2px solid black;
     padding-left: 30px;
     border-radius: 12px;
-    margin: 40px 0px;
+    margin: 40px 50px;
 }
 
 navbar h1 {
@@ -27,11 +20,21 @@ navbar h1 {
 }
 
 main {
-    width: 1220px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 50px;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .upper-container {
     display: flex;
+    width: 100%;
     font-size: 20px;
     color: #939393;
     justify-content: space-between;
@@ -39,11 +42,15 @@ main {
     margin-top: 15px;
 }
 
+.job-container {
+    width: 100%;
+}
+
 .count {
     color: black;
 }
 
-.job-item button,
+.clear-btn,
 .add-job-btn {
     font-size: 18px;
     background: none;
@@ -54,7 +61,7 @@ main {
 
 .job-item {
     border: 2px solid black;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 25px 20px;
 }
 
@@ -73,4 +80,8 @@ main {
 
 a {
     color: black;
+}
+
+navbar a {
+    text-decoration: none;
 }
