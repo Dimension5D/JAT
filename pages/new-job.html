@@ -11,7 +11,7 @@
         </navbar>
         <main>
             <h2> Job Application Form </h2> 
-            <form>
+            <form class="newJob-form">
                 <div class="form-field">
                     <label for="name"> Company Name : </label>
                     <input type="text" id="name" placeholder="JAT"/>
@@ -29,9 +29,11 @@
                     <input type="date" id="date"/>
                 </div>
                 <div class="btn-container">
-                    <button> Save Job </button>
+                    <button type="submit" class="save-job"> Save Job </button>
                 </div>
             </form>
+            <p class="message"></p>
         </main>
+        <script type="module" src="../scripts/new-job.js"></script>
     </body>
 </html>
